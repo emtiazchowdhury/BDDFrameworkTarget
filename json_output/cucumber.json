@@ -1,0 +1,140 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User should be able to verify pagetitle",
+        "description": "",
+        "id": "target-homepage-page;user-should-be-able-to-verify-pagetitle",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4085359900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Target Home page",
+            "match": {
+              "location": "homepageStepDefinition.user_navigates_to_Target_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445443500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User capture the pagetitle",
+            "match": {
+              "location": "homepageStepDefinition.User_capture_the_pagetitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1334400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to verify the correct pagetitle",
+            "match": {
+              "location": "homepageStepDefinition.user_should_be_able_to_verify_the_correct_pagetitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 305717100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be able to close the browser",
+            "match": {
+              "location": "homepageStepDefinition.userShouldBeAbleToCloseTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "User should be able to search items",
+        "description": "",
+        "id": "target-homepage-page;user-should-be-able-to-search-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3845447100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User navigates to Target Home page",
+            "match": {
+              "location": "homepageStepDefinition.user_navigates_to_Target_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1439863800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter \"coffe\" and click search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "coffe",
+                  "offset": 12
+                }
+              ],
+              "location": "homepageStepDefinition.userEnterItemNameAndClickSearchButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1215339100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to see a list of items",
+            "match": {
+              "location": "homepageStepDefinition.userShouldBeAbleToSeeAListOfItems()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 309731400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be able to close the browser",
+            "match": {
+              "location": "homepageStepDefinition.userShouldBeAbleToCloseTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Target Homepage Page",
+    "description": "",
+    "id": "target-homepage-page",
+    "keyword": "Feature",
+    "uri": "homepage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smokeTest"
+      }
+    ]
+  }
+]

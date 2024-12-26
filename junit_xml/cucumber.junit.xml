@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.289265">
+    <testcase classname="Target Homepage Page" name="Target Verify pagetitle scenario" time="5.289265">
+        <system-out>
+            <![CDATA[Given User navigates to Target Home page....................................passed
+When User capture the pagetitle.............................................passed
+Then User should be able to verify the correct pagetitle....................passed
+Then User should be able to close the browser...............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="11.648236">
+    <testcase classname="Target Homepage Page" name="User should be able to verify pagetitle" time="4.837855">
+        <system-out>
+            <![CDATA[Given User navigates to Target Home page....................................passed
+When User capture the pagetitle.............................................passed
+Then User should be able to verify the correct pagetitle....................passed
+Then User should be able to close the browser...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Target Homepage Page" name="User should be able to search items" time="6.810381">
+        <system-out>
+            <![CDATA[Given User navigates to Target Home page....................................passed
+When User enter "coffe" and click search button.............................passed
+Then User should be able to see a list of items.............................passed
+Then User should be able to close the browser...............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
